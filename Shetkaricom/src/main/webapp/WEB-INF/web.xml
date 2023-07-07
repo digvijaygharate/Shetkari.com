@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+ id="WebApp_ID" version="4.0">
+  <display-name>Shetkaricom</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>n_index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+   <servlet>
+        <servlet-name> user_registration </servlet-name>
+        <servlet-class> com.digvijay.backend.user_registration </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_registration </servlet-name>
+        <url-pattern> /user_registration </url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name> user_login </servlet-name>
+        <servlet-class> com.digvijay.backend.user_login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_login </servlet-name>
+        <url-pattern> /user_login </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> user_profile_pic_update </servlet-name>
+        <servlet-class> com.digvijay.backend.user_profile_pic_update </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_profile_pic_update </servlet-name>
+        <url-pattern> /user_profile_pic_update </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> user_profile_about_edit </servlet-name>
+        <servlet-class> com.digvijay.backend.user_profile_about_edit </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_profile_about_edit </servlet-name>
+        <url-pattern> /user_profile_about_edit </url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name> wholesaler_registration </servlet-name>
+        <servlet-class> com.digvijay.backend.wholesaler_registration </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> wholesaler_registration </servlet-name>
+        <url-pattern> /wholesaler_registration </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> wholesaler_login </servlet-name>
+        <servlet-class> com.digvijay.backend.wholesaler_login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> wholesaler_login </servlet-name>
+        <url-pattern> /wholesaler_login </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> wholesaler_profile_about_edit </servlet-name>
+        <servlet-class> com.digvijay.backend.wholesaler_profile_about_edit </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> wholesaler_profile_about_edit </servlet-name>
+        <url-pattern> /wholesaler_profile_about_edit </url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name> logout </servlet-name>
+        <servlet-class> com.digvijay.backend.logout </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> logout </servlet-name>
+        <url-pattern> /logout </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> apply_for_wholesaler </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_wholesaler </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_wholesaler </servlet-name>
+        <url-pattern> /apply_for_wholesaler </url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name> Delete_wholesaler_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_wholesaler_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_wholesaler_applied </servlet-name>
+        <url-pattern> /Delete_wholesaler_applied </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> apply_for_wholesaler_user </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_wholesaler_user </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_wholesaler_user </servlet-name>
+        <url-pattern> /apply_for_wholesaler_user </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> Delete_wholesaler_user_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_wholesaler_user_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_wholesaler_user_applied </servlet-name>
+        <url-pattern> /Delete_wholesaler_user_applied </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> wholesaler_data_edit </servlet-name>
+        <servlet-class> com.digvijay.backend.wholesaler_data_edit </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> wholesaler_data_edit </servlet-name>
+        <url-pattern> /wholesaler_data_edit </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> user_wholesaler_mess </servlet-name>
+        <servlet-class> com.digvijay.backend.user_wholesaler_mess </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_wholesaler_mess </servlet-name>
+        <url-pattern> /user_wholesaler_mess </url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name> farmer_registration </servlet-name>
+        <servlet-class> com.digvijay.backend.farmer_registration </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> farmer_registration </servlet-name>
+        <url-pattern> /farmer_registration </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> farmer_profile_about_edit </servlet-name>
+        <servlet-class> com.digvijay.backend.farmer_profile_about_edit </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> farmer_profile_about_edit </servlet-name>
+        <url-pattern> /farmer_profile_about_edit </url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name> farmer_login </servlet-name>
+        <servlet-class> com.digvijay.backend.farmer_login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> farmer_login </servlet-name>
+        <url-pattern> /farmer_login </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> apply_for_farmer </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_farmer </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_farmer </servlet-name>
+        <url-pattern> /apply_for_farmer </url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name> Delete_farmer_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_farmer_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_farmer_applied </servlet-name>
+        <url-pattern> /Delete_farmer_applied </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> apply_for_farmer_user </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_farmer_user </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_farmer_user </servlet-name>
+        <url-pattern> /apply_for_farmer_user </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> apply_for_farmer_wholesaler </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_farmer_wholesaler </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_farmer_wholesaler </servlet-name>
+        <url-pattern> /apply_for_farmer_wholesaler </url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name> Delete_farmer_user_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_farmer_user_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_farmer_user_applied </servlet-name>
+        <url-pattern> /Delete_farmer_user_applied </url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name> apply_for_wholesaler_farmer </servlet-name>
+        <servlet-class> com.digvijay.backend.apply_for_wholesaler_farmer </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> apply_for_wholesaler_farmer </servlet-name>
+        <url-pattern> /apply_for_wholesaler_farmer </url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name> Delete_wholesaler_farmer_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_wholesaler_farmer_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_wholesaler_farmer_applied </servlet-name>
+        <url-pattern> /Delete_wholesaler_farmer_applied </url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name> Delete_farmer_wholesaler_applied </servlet-name>
+        <servlet-class> com.digvijay.backend.Delete_farmer_wholesaler_applied </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Delete_farmer_wholesaler_applied </servlet-name>
+        <url-pattern> /Delete_farmer_wholesaler_applied </url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name> addnewproductaction </servlet-name>
+        <servlet-class> com.digvijay.backend.addnewproductaction </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> addnewproductaction </servlet-name>
+        <url-pattern> /addnewproductaction </url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name> user_farmer_mess </servlet-name>
+        <servlet-class> com.digvijay.backend.user_farmer_mess </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_farmer_mess </servlet-name>
+        <url-pattern> /user_farmer_mess </url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name> product_cart_update </servlet-name>
+        <servlet-class> com.digvijay.backend.product_cart_update </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> product_cart_update </servlet-name>
+        <url-pattern> /product_cart_update </url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name> user_wholesaler_mess1 </servlet-name>
+        <servlet-class> com.digvijay.backend.user_wholesaler_mess1 </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> user_wholesaler_mess1 </servlet-name>
+        <url-pattern> /user_wholesaler_mess1 </url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name> admin_login </servlet-name>
+        <servlet-class> com.digvijay.backend.admin_login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> admin_login </servlet-name>
+        <url-pattern> /admin_login </url-pattern>
+    </servlet-mapping>
+ 
+    
+</web-app>
